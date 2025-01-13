@@ -38,11 +38,12 @@ nav {
 }
 
 nav img {
-    color: red;
-    width: 130px;
+    width: 264px; 
     position: relative;
     z-index: 10;
+    margin-top: 31px; 
 }
+
 
 nav button {
     position: relative;
@@ -56,7 +57,7 @@ nav button {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    color: white;
+    color: rgb(14, 227, 46);
     position: relative;
     gap: 23px;
     padding: 0 30px;
@@ -91,7 +92,7 @@ nav button {
 .btn {
     padding: 3px 8px;
     font-weight: 400;
-    color: white;
+    color: rgb(14, 227, 46);
     background-color: rgba(248, 243, 243, 0.021);
     border-radius: 4px;
     border: 1px solid white;
@@ -100,8 +101,8 @@ nav button {
 }
 
 .btn-red {
-    background-color: red;
-    color: white;
+    background-color: #E15501;
+    color: rgb(14, 227, 46);
     padding: 3px 24px;
     font-size: 20px;
     border-radius: 4px;
@@ -109,8 +110,8 @@ nav button {
 }
 
 .btn-red-sm {
-    background-color: red;
-    color: white;
+    background-color: #E15501;
+    color: rgb(14, 227, 46);
 }
 
 .hero-buttons {
@@ -122,7 +123,7 @@ nav button {
 
 .main input {
     padding: 7px 101px 8px 14px;
-    color: white;
+    color: rgb(14, 227, 46);
     font-size: 12px;
     border-radius: 4px;
     background-color: rgba(23, 23, 23, 0.7);
@@ -134,7 +135,7 @@ nav button {
     justify-content: center;
     max-width: 70vw;
     margin: auto;
-    color: white;
+    color: rgb(14, 227, 46);
     justify-content: center;
     align-items: center;
 }
@@ -183,13 +184,13 @@ section.first>div :nth-child(2) {
 
 .faq {
     background: black;
-    color: white;
+    color:rgb(14, 227, 46);
     padding: 34px;
 }
 
 .faqbox:hover {
     background-color: #414141;
-    color: white;
+    color: rgb(14, 227, 46);
 }
 
 .faqbox svg {
@@ -209,7 +210,7 @@ section.first>div :nth-child(2) {
 }
 
 footer {
-    color: white;
+    color: rgb(14, 227, 46);
     max-width: 60vw;
     margin: auto;
     padding: 60px;
@@ -223,7 +224,7 @@ footer .questions {
 .footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    color: white;
+    color: rgb(14, 227, 46);
 }
 
 
@@ -297,7 +298,7 @@ footer .questions {
 
 .footer a {
     font-size: 14px;
-    color: white;
+    color: rgb(14, 227, 46);
 }
 
 .footer-item {
